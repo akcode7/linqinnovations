@@ -4,9 +4,9 @@
 const btn = document.querySelector(".mobile-menu-button");
 const closebtn = document.querySelector(".mobile-menu-close-btn");
 const menu = document.querySelector(".mobile-menu");
-const buttons= [closebtn, btn];
-buttons.forEach(button => {
-button.addEventListener("click", () => {
+const btnsoc= [closebtn, btn];
+btnsoc.forEach(buttonsoc => {
+buttonsoc.addEventListener("click", () => {
 menu.classList.toggle("hidden");
    });
 });

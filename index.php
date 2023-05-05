@@ -20,24 +20,8 @@
     </style>
 </head>
 <body>
-  <!-- header starts -->
-  <header class="text-gray-400 body-font">
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 align-middle">
-        <img src="assets/images/LinQ transparent.png"  class="w-56 text-white p-2" alt="" srcset="">
-      </a>
-      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center gap-10 z-10">
-        <a href="index.html" class="mr-5 font-bold">Home</a>
-        <a href="about.html" class="mr-5 font-bold">About</a>
-        <a href="services.html" class="mr-5 font-bold">Services</a>
-        <a href="contact.html" class="mr-5 font-bold">Contact</a>
-      </nav>
-      <button class="inline-flex items-center text-white font-bold bg-[#5E17EB] border-0 py-5 px-12 focus:outline-none hover:bg-gray-700 rounded-xl text-base mt-4 md:mt-0">Let’s Talk 👋
-      
-      </button>
-    </div>
-  </header>
-<!-- header ends -->
+  <!-- header -->
+<?php include 'assets/components/header.html' ?>
 <!-- hero section -->
 <section class="text-gray-600 h-screen mx-auto overflow-hidden relative body-font -mt-36 pt-20">
   <div class="absolute right-0 top-0 -z-10  bg-yellow-300 h-screen w-1/4"></div>
@@ -49,7 +33,7 @@
           <span class="relative inline-flex rounded-full h-6 w-6 bg-yellow-300"></span>
         </span></span>
       </h1>
-      <p class="mb-8 leading-relaxed text-base font-medium text-gray-500 pt-5">Copper mug try-hard authentic tumeric truffaut hexagon try-hard chambray. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, accusamus.</p>
+      <p class="mb-8 leading-relaxed text-base font-medium text-gray-500 pt-5 px-6 md:px-0">Copper mug try-hard authentic tumeric truffaut hexagon try-hard chambray. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, accusamus.</p>
       <div class="flex justify-center">
         <button class="inline-flex text-white hover:text-black border-0 py-4 px-6 focus:outline-none bg-[#5E17EB] hover:bg-[#FFDE59] rounded text-lg font-semibold transition duration-500">About Us</button>
         <button class="ml-4 inline-flex text-gray-950  border-0 py-4 px-6 focus:outline-none rounded hover:text-[#5E17EB] text-lg font-semibold transition duration-500">Previous work</button>

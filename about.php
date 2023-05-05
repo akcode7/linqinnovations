@@ -20,24 +20,8 @@
     </style>
 </head>
 <body>
- <!-- header starts -->
- <header class="text-gray-400 body-font">
-  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 align-middle">
-      <img src="assets/images/LinQ transparent.png"  class="w-56 text-white p-2" alt="" srcset="">
-    </a>
-    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center gap-10 z-10">
-      <a href="index.html" class="mr-5 font-bold">Home</a>
-      <a href="about.html" class="mr-5 font-bold">About</a>
-      <a href="services.html" class="mr-5 font-bold">Services</a>
-      <a href="contact.html" class="mr-5 font-bold">Contact</a>
-    </nav>
-    <button class="inline-flex items-center text-white font-bold bg-[#5E17EB] border-0 py-5 px-12 focus:outline-none hover:bg-gray-700 rounded-xl text-base mt-4 md:mt-0">Let’s Talk 👋
-    
-    </button>
-  </div>
-</header>
-<!-- header ends -->
+ <!-- header -->
+ <?php include 'assets/components/header.html' ?>
 <!-- hero section -->
 <section  class="bg-[url('assets/images/about-banner.jpg')] bg-no-repeat bg-cover bg-center" >
   <div class="container mx-auto px-16 py-40">
