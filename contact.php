@@ -23,7 +23,7 @@
  <!-- header -->
  <?php include 'assets/components/header.html' ?>
 <!-- hero section -->
-<section  class="bg-[url('assets/images/about-banner.jpg')] bg-no-repeat bg-cover bg-cente" >
+<section  class="bg-no-repeat bg-cover bg-cente" style="background-image: url(assets/images/contact.png)">
   <div class="container mx-auto px-6 py-40">
     <div class="grid grid-cols-2">
       <div class="p-0 md:p-6 flex flex-col justify-center">
