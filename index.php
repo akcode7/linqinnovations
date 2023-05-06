@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/b182aa84d1.js" crossorigin="anonymous"></script>
+    <!-- wow -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <title>LinqInnovations</title>
@@ -160,7 +162,9 @@
   <section class="pt-24 pb-28">
     <div class="container mx-auto">
       <div class="grid grid-cols-1 lg:grid-cols-2">
-        <div class="bg-gray-200 h-20"></div><!--Image here-->
+        <div class="flex items-center">
+          <img src="assets/images/blockchain.png" alt="">
+        </div>
         <div class="p-10">
           <p class="text-gray-500 font-bold text-lg text-start tracking-wider"><i class="fa fa-circle text-base text-yellow-400"></i>&nbsp;Why Choose Us</p>
           <div class="text-start pt-8 pb-4 text-4xl font-[900] text-gray-800 tracking-tight leading-[60px]">
@@ -205,10 +209,18 @@
         <span>Our latest Projects</span>
       </div>
     <div class="grid grid-col-1 md:grid-cols-2 pt-16">
-      <div class="bg-violet-950 h-96"></div>
-      <div class="bg-teal-700 h-96"></div>
-      <div class="bg-[#2B00D4] h-96"></div>
-      <div class="bg-yellow-400 h-96"></div>
+      <div class="bg-violet-950 p-10">
+        <img src="assets/images/projects/project-1.jpg" alt="" class="">
+      </div>
+      <div class="bg-teal-700 p-10">
+        <img src="assets/images/projects/project-2.jpg" alt="">
+      </div>
+      <div class="bg-[#2B00D4] p-10">
+      <img src="assets/images/projects/project-3.jpg" alt="">
+      </div>
+      <div class="bg-yellow-400 p-10">
+      <img src="assets/images/projects/project-4.jpg" alt="">
+      </div>
     </div>    
   </section>
   <!-- testimonial -->
@@ -227,22 +239,26 @@
       </div>
     </div>
   </section>
-  <section class="pt-20 pb-20 bg-[#23184f]">
+  <section class="py-4 bg-[#23184f]">
     <div class="container mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-2">
-        <div class="p-10">
-          <p class="text-white font-bold text-xl text-start tracking-wider"><i class="fa fa-circle text-base text-yellow-400"></i>&nbsp;Get every update</p>
-          <div class="text-start pt-5 pb-4 text-[45px] font-[900] text-white tracking-tight leading-[60px]">
-            <span>Click on the subscribe button for regular updates</span>
-          </div>
-          <form>   
-            <div class="relative">
-                <input type="search" id="default-search" class="block w-full p-6 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-teal-500 focus:text-teal-400" placeholder="Enter your mail" required>
-                <button type="submit" class="text-white absolute right-3 bottom-2.5 bg-teal-600 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-8 py-4 transition duration-700">Submit</button>
+        <div class="flex items-center">
+          <div class="mx-auto">
+            <p class="text-white font-bold text-xl text-start tracking-wider"><i class="fa fa-circle text-base text-yellow-400"></i>&nbsp;Get every update</p>
+            <div class="text-start pt-5 pb-4 text-[45px] font-[900] text-white tracking-tight leading-[60px]">
+              <span>Click on the subscribe button for regular updates</span>
             </div>
-          </form>
+            <form>   
+              <div class="relative">
+                  <input type="search" id="default-search" class="block w-full p-6 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-teal-500 focus:text-teal-400" placeholder="Enter your mail" required>
+                  <button type="submit" class="text-white absolute right-3 bottom-2.5 bg-teal-600 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-8 py-4 transition duration-700">Submit</button>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="bg-green-500 h-20"></div>
+        <div class="flex ">
+          <img src="assets/images/phone.png" alt="" class="w-2/3 mx-auto">
+        </div>
       </div>
     </div>
   </section>
@@ -254,5 +270,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 </html>
