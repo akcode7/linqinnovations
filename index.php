@@ -158,7 +158,7 @@
     </div>
   </div>
   </section> 
-  <!-- why choose us -->
+  <!-- why choose us. -->
   <section class="pt-24 pb-28">
     <div class="container mx-auto">
       <div class="grid grid-cols-1 lg:grid-cols-2">
