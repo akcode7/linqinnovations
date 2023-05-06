@@ -556,10 +556,6 @@ video {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -918,10 +914,6 @@ video {
   overflow: hidden;
 }
 
-.overflow-y-scroll {
-  overflow-y: scroll;
-}
-
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1101,6 +1093,19 @@ video {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#\#FFD100\] {
+  background-color: ##FFD100;
+}
+
+.bg-\[\#FFD100\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 209 0 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'assets\/images\/about-banner\.jpg\'\)\] {
   background-image: url('assets/images/about-banner.jpg');
 }
@@ -1253,11 +1258,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .pb-10 {
@@ -1859,6 +1859,11 @@ video {
     padding: 1.5rem;
   }
 
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -1887,11 +1892,6 @@ video {
   .md\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .md\:pl-10 {
