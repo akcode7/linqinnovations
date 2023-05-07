@@ -25,11 +25,11 @@
   <!-- header -->
 <?php include 'assets/components/header.html' ?>
 <!-- hero section -->
-<section class="text-gray-600 h-screen mx-auto overflow-hidden relative body-font -mt-36 pt-20">
+<section class="text-gray-600 h-screen mx-auto overflow-hidden relative body-font -mt-36 pt-10">
   <div class="absolute right-0 top-0 -z-10  bg-yellow-300 h-screen w-1/4 hidden lg:block"></div>
-  <div class="container mx-auto flex px-10 py-24 md:flex-row flex-col items-center">
+  <div class="container mx-auto flex px-10 py-12 md:flex-row flex-col items-center">
     <div class="lg:flex-grow md:w-1/5 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center pt-28">
-      <h1 class="title-font sm:text-8xl text-5xl mb-4 font-bold text-black">We Build IT, To Build Your <span class="px-5 py-2 bg-[#5E17EB] text-white" style="display: inline-block; transform: rotate(-4deg);">Trust
+      <h1 class="title-font text-5xl sm:text-8xl mb-4 font-bold text-black">We Build IT, To Build Your <span class="px-5 py-2 bg-[#5E17EB] text-white" style="display: inline-block; transform: rotate(-4deg);">Trust
         <span class="absolute top-0 right-0 -mt-1 -mr-1 flex h-6 w-6">
           <span class="animate-ping absolute top-0 right-0 inline-flex h-full w-full rounded-full bg-yellow-500 opacity-90"></span>
           <span class="relative inline-flex rounded-full h-6 w-6 bg-yellow-300"></span>
@@ -42,7 +42,7 @@
       </div>
         <!-- hero social icons -->
   
-    <div class="flex pt-32 justify-center">
+    <div class="flex pt-12 2xl:pt-24 justify-center">
       <img class="w-5 h-5 mx-3 inline-flex" src="assets/images/facebook.png" alt="">
       <span class="px-1 text-sm font-bold hover:text-[#5E17EB] mr-6 tracking-wider" >FACEBOOK</span>
       <img class="w-5 h-5 mx-3 inline-flex" src="assets/images/instagram.png" alt="">
@@ -60,6 +60,7 @@
     </div>
   </div>
 </section>
+<!-- hero end -->
 <section class="bg-[#F7F8FD]">
   <div class="pt-20">
     <p class="text-gray-500 font-bold text-xl text-center tracking-wider">Over <span class="text-black">20+</span> Software business growing with LinqInnovation</p>
@@ -90,7 +91,7 @@
       <span>IT solution services</span>
     </div>
     <div class="pt-24 pb-10 md:pl-10 md:pr-10 flex">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-12 mx-auto">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 mx-auto">
         <div class="bg-white h-72 pt-10 pl-10 rounded-3xl w-72 shadow-md shadow-gray-200">
           <div class="pb-8 pt-8"><i class="fa fa-globe text-teal-500 bg-[#1ee2cf26] p-4 text-start transform transition duration-500 hover:rotate-180" id="icon-cstm"></i></div>
           <div><h3 class="text-gray-800 text-2xl font-semibold pr-5">Website Development</h3></div>
