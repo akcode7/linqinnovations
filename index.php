@@ -26,7 +26,7 @@
 <?php include 'assets/components/header.html' ?>
 <!-- hero section -->
 <section class="text-gray-600 h-screen mx-auto overflow-hidden relative body-font -mt-36 pt-20">
-  <div class="absolute right-0 top-0 -z-10  bg-yellow-300 h-screen w-1/4"></div>
+  <div class="absolute right-0 top-0 -z-10  bg-yellow-300 h-screen w-1/4 hidden lg:block"></div>
   <div class="container mx-auto flex px-10 py-24 md:flex-row flex-col items-center">
     <div class="lg:flex-grow md:w-1/5 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center pt-28">
       <h1 class="title-font sm:text-8xl text-5xl mb-4 font-bold text-black">We Build IT, To Build Your <span class="px-5 py-2 bg-[#5E17EB] text-white" style="display: inline-block; transform: rotate(-4deg);">Trust
@@ -210,16 +210,16 @@
       </div>
     <div class="grid grid-col-1 md:grid-cols-2 pt-16">
       <div class="bg-violet-950 p-10">
-        <img src="assets/images/projects/project-1.jpg" alt="" class="">
+        <img src="assets/images/projects/project-3.jpg" alt="" class="">
       </div>
       <div class="bg-teal-700 p-10">
         <img src="assets/images/projects/project-2.jpg" alt="">
       </div>
       <div class="bg-[#2B00D4] p-10">
-      <img src="assets/images/projects/project-3.jpg" alt="">
+      <img src="assets/images/projects/project-6.png" alt="">
       </div>
       <div class="bg-yellow-400 p-10">
-      <img src="assets/images/projects/project-4.jpg" alt="">
+      <img src="assets/images/projects/project-5.png" alt="">
       </div>
     </div>    
   </section>
