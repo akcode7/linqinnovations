@@ -37,7 +37,7 @@
     </div>
   </div>
 </section><!-- hero section ends -->
-<section class="pt-28 pb-28 px-12">
+<section class="pt-10 md:pt-20 pb-24 px-12">
     <div class="container mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
@@ -53,7 +53,7 @@
     </div>
 </section>
 <hr class="bg-gray-100 mx-auto container">
-<section class="pt-24 pb-24">
+<section class="pt-16 pb-24">
     <div class="container mx-auto">
         <h2 class="text-gray-900 text-[50px] font-extrabold leading-[60px] px-6">Why Us!</h2>
         <div class="bg-[#F7F8FD] p-6 mx-auto md:p-20 mt-20 rounded-3xl">
@@ -89,7 +89,7 @@
         </div>
     </div>
 </section>
-<section class="pt-2 pb-28 px-12">
+<section class="pt-2 pb-20 px-12">
     <div class="container mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
