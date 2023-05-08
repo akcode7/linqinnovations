@@ -80,6 +80,4 @@
 </div>
   <!-- footer  -->
   <?php include 'assets/components/footer.html' ?>
-<!-- footer ends -->
-<script src="assets/js/main.js"></script>
 </body>
